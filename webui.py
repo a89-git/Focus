@@ -91,7 +91,7 @@ def generate_clicked(task: worker.AsyncTask):
 
 reload_javascript()
 
-title = f'Focus {fooocus_version.version}'
+title = f'Focus {focus_version.version}'
 
 if isinstance(args_manager.args.preset, str):
     title += ' ' + args_manager.args.preset

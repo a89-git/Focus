@@ -40,7 +40,7 @@ def worker():
     import modules.constants as constants
     import extras.ip_adapter as ip_adapter
     import extras.face_crop
-    import fooocus_version
+    import focus_version
     import args_manager
 
     from modules.sdxl_styles import apply_style, apply_wildcards, fooocus_expansion, apply_arrays

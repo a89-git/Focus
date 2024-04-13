@@ -6,7 +6,7 @@ from pathlib import Path
 import gradio as gr
 from PIL import Image
 
-import fooocus_version
+import focus_version
 import modules.config
 import modules.sdxl_styles
 from modules.flags import MetadataScheme, Performance, Steps
